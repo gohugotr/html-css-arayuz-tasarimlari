@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: none;
+    outline: 0;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+:root{
+    --renk1:#FCe5c0;
+    --renk2:#F7D7B5;
+}
+.intro{
+    height: calc(100vh - 50px);
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: [intro-left] 1fr [intro-sidebar] 250px;
+    grid-template-areas: 'intro-left   intro-sidebar'
+                         'intro-footer intro-sidebar';
+    background-color: var(--renk1);
+    .intro-left{
+        grid-area: intro-left;
+        align-self: center; /* Dikey Ortala */
+        justify-self: center; /* Yatay Ortala */
+        text-align: center;
+    }
+    .intro-sidebar{
+        grid-area: intro-sidebar;
+        background: red;
+    }
+    .intro-footer{
+        grid-area: intro-footer;
+        text-align: center;
+    }
+}
