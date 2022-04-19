@@ -1,0 +1,1 @@
+# Animate.style arayüzünü kodluyoruz.
