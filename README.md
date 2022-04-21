@@ -1,6 +1,6 @@
 # Animate.style arayüzünü kodluyoruz.
 
-[Proje Kodları](https://github.com/gohugotr/html-css-arayuz-tasarimlari/tree/animate-style-arayuz-tasarimi)
+### [`Proje Kodları`](https://github.com/gohugotr/html-css-arayuz-tasarimlari/tree/animate-style-arayuz-tasarimi)
 
 [Animate.style](https://animate.style/#documentation)
 
